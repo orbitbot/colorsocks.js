@@ -1,0 +1,25 @@
+{
+  "name": "colorsocks.js",
+  "version": "1.0.0",
+  "description": "A tiny Javascript helper for alternating color strings on the web",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/orbitbot/colorsocks.js.git"
+  },
+  "author": "Patrik Johnson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/orbitbot/colorsocks.js/issues"
+  },
+  "homepage": "https://github.com/orbitbot/colorsocks.js",
+  "devDependencies": {
+    "browser-sync": "^1.8.3",
+    "gulp": "^3.8.10",
+    "gulp-jshint": "^1.9.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-size": "^1.1.0",
+    "gulp-uglify": "^1.0.2",
+    "jshint-stylish": "^1.0.0"
+  }
+}

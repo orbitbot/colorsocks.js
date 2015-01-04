@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>colorsocks.js!</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href='//fonts.googleapis.com/css?family=Pathway+Gothic+One' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Alfa+Slab+One' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="css/fontello-embedded.css">
+    <link rel="stylesheet" type="text/css" href="css/colorsocks.css">
+
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+  </head>
+  <body>
+
+    <div class="container">
+      <h1 style="margin-top: 20%">Colorsocks.js!<a href="https://github.com/orbitbot/colorsocks.js"><i class="icon-github"></i></a></h1>
+
+      <p id="aphorism" class="aphorism"></p>
+
+      <p class="explanation">See the colored line above? That's all it does. 670&nbsp;bytes&nbsp;of&nbsp;fun.&nbsp;&nbsp;&nbsp;<sub>(379&nbsp;minfied)</sub><i class="icon-done"></i></p>
+
+    </div>
+
+    <script type="text/javascript" src="js/colorsocks.js"></script>
+    <script>
+var aphorisms = [
+  'Do not argue with an idiot. He will drag you down to his level and beat you with experience.',
+  'Light travels faster than sound. This is why some people appear bright until you hear them speak.',
+  'We never really grow up, we only learn how to act in public.',
+  'Knowledge is knowing a tomato is a fruit; wisdom is not putting it in a fruit salad.',
+  'A clear conscience is usually the sign of a bad memory.',
+  'The voices in my head may not be real, but they have some good ideas!',
+  'Never trust a computer you can\'t throw out a window.',
+  'When the enemy of my enemy is willing to use plasma weapons inside a hotel, I think I can do better than stupid aphorisms, General.',
+  'Clothes make the man. Naked people have little or no influence on society.',
+  'If you have nothing nice to say, say it anonymously on the Internet.'
+];
+
+var colorSets = [
+  ['#3fc380', '#89c4f4', '#e08283', '#b388dd', '#fec956'],
+  ['#dadada', '#464646', '#d76817', '#00a6b6', '#00d2a5'],
+  ['#00f00d', '#28d5d1', '#ea3487'],
+  ['#f4cd28', '#76421d', '#dd2b45', '#f36906', '#64ddd6', '#25c0d6'],
+  ['#d58ca0', '#72eaff', '#f8ef78', '#3ddc88', '#f3042d', '#003eb0'],
+  ['#f5dd1b', '#20d0e8', '#ea3487', '#96294d']
+];
+
+window.onload = function() {
+  colorsocks.paint('aphorism', colorSets[Math.floor(Math.random() * colorSets.length)], aphorisms[Math.floor(Math.random() * aphorisms.length)]);
+}
+    </script>
+
+  </body>
+</html>
