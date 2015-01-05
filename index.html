@@ -22,11 +22,19 @@
   <body>
 
     <div class="container">
-      <h1 style="margin-top: 20%">Colorsocks.js!<a href="https://github.com/orbitbot/colorsocks.js"><i class="icon-github"></i></a></h1>
+      <a href="https://github.com/orbitbot/colorsocks.js" style="text-decorations:none; color:inherit;">
+        <h1 style="margin-top: 20%">Colorsocks.js!</h1>
+      </a>
 
       <p id="aphorism" class="aphorism"></p>
 
-      <p class="explanation">See the colored line above? That's all it does. 670&nbsp;bytes&nbsp;of&nbsp;fun.&nbsp;&nbsp;&nbsp;<sub>(379&nbsp;minfied)</sub><i class="icon-done"></i></p>
+      <div class="explanation-container">
+        <p class="explanation">
+          See&nbsp;the&nbsp;colored&nbsp;line&nbsp;above?
+          That's&nbsp;all&nbsp;it&nbsp;does.
+          670&nbsp;bytes&nbsp;of&nbsp;fun.&nbsp;&nbsp;&nbsp;<sub>(379&nbsp;minfied)</sub>
+        </p>
+      </div>
 
     </div>
 
@@ -58,10 +66,9 @@ window.onload = function() {
   colorsocks.paint('aphorism', colorSets[Math.floor(Math.random() * colorSets.length)], aphorisms[Math.floor(Math.random() * aphorisms.length)]);
 }
     </script>
-
+ 
     <!-- Google Analytics -->
     <script>
-
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-58175967-3']);
       _gaq.push(['_trackPageview']);
@@ -70,8 +77,7 @@ window.onload = function() {
         var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-    
+      })();   
     </script>
 
   </body>
