@@ -26,6 +26,7 @@ h1 {
   line-height: 1.2;
   letter-spacing: -0.1rem;
   font-family: 'Alfa Slab One', cursive;
+  display: inline-block;
 }
 h2 {
   font-size: 3.6rem;
@@ -52,13 +53,29 @@ h6 {
   line-height: 1.6;
   letter-spacing: 0;
 }
-.icon-done {
-  position: relative;
-  margin-left: 1.5em;
-  font-size: 3.0rem;
-  top: 0.2em;
-  color: #222222;
+h1:after {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+
+  display: inline;
+  text-decoration: inherit;
+  margin-left: .3em;
+  text-align: center;
+
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em;
+
+  font-size: 4.0rem;
+  content: '\e801';
+  color: #1eaedb;
 }
+h1:hover:after {
+  color: #1b9cc5;
+}
+
 /* Larger than phablet */
 @media (min-width: 550px) {
   body {
@@ -82,19 +99,13 @@ h6 {
   h6 {
     font-size: 1.5rem;
   }
-  .icon-done {
-    font-size: 4.2rem;
+  h1:after {
+    font-size: 5.0rem;
   }
 }
 
 p {
   margin-top: 0;
-}
-a {
-  color: #1eaedb;
-}
-a:hover {
-  color: #1b9cc5;
 }
 
 .container {
@@ -108,8 +119,39 @@ a:hover {
 .aphorism {
   font-size: 3.6rem;
   margin-bottom: 15%;
+  font-family: 'Alfa Slab One', cursive;
 }
 
 .explanation {
+  display: inline-block;
+  zoom: 1;
+  display*: inline; /* ie hack */
+  text-align: left;
+  margin-right: 1.5em;
   color: #4d5a6e;
+}
+
+.explanation-container {
+  text-align: center;
+}
+.explanation-container:after {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em;
+
+  font-size: 4.2rem;
+  content: '\e800';
+  color: #222222;
+  vertical-align: -.6em;
 }
