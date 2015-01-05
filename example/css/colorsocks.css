@@ -71,7 +71,7 @@ h1:after {
   font-size: 4.0rem;
   content: '\e801';
   color: #1eaedb;
-  padding: 0 6px;
+  padding: 0 3px;
 }
 h1:hover:after {
   color: #1b9cc5;
@@ -103,6 +103,7 @@ h1:hover:after {
     font-size: 1.5rem;
   }
   h1:after {
+    padding: 0 6px;
     font-size: 5.0rem;
   }
 }
