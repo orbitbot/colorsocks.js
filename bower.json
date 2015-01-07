@@ -9,8 +9,8 @@
   "main": "colorsocks.js",
   "license": "MIT",
   "ignore": [
-    ".gitignore"
-    "example"
+    ".gitignore",
+    "example",
     "node_modules",
     "src",
     "gulpfile.js",
