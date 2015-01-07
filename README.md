@@ -6,7 +6,9 @@ A tiny Javascript helper for alternating color strings on the web
 > Your attitude is like a box of crayons that color your world. Constantly color your picture gray, and your picture will always be bleak. Try adding some bright colors to the picture by including humor, and your picture begins to lighten up.  
 >  -- Allen Klein
 
-<br />
+<br />  
+[See colorsocks.js in a DEMO](http://orbitbot.github.io/colorsocks.js/). Try reloading a bit for fun :)
+
 ## Get
 
 Download either [```colorsocks.js```](https://raw.githubusercontent.com/orbitbot/colorsocks.js/master/dist/colorsocks.js) or the minfied [```colorsocks.min.js```](https://raw.githubusercontent.com/orbitbot/colorsocks.js/master/dist/colorsocks.min.js). Just click. Or look in the ```dist/``` subfolder.
