@@ -11,7 +11,14 @@ A tiny Javascript helper for alternating color strings on the web
 
 ## Get
 
-Download either [```colorsocks.js```](https://raw.githubusercontent.com/orbitbot/colorsocks.js/master/dist/colorsocks.js) or the minfied [```colorsocks.min.js```](https://raw.githubusercontent.com/orbitbot/colorsocks.js/master/dist/colorsocks.min.js). Just click. Or look in the ```dist/``` subfolder.
+If you have [bower](http://bower.io/) installed (if you don't, you probably want to but just haven't heard about it yet), run
+
+```bash
+$ bower install colorsocks.js
+```
+
+
+Otherwise you can download either [```colorsocks.js```](https://raw.githubusercontent.com/orbitbot/colorsocks.js/master/dist/colorsocks.js) or the minfied [```colorsocks.min.js```](https://raw.githubusercontent.com/orbitbot/colorsocks.js/master/dist/colorsocks.min.js). Just click. Or look in the ```dist/``` subfolder.
 
 <br />
 
