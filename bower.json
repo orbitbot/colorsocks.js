@@ -1,20 +1,29 @@
 {
   "name": "colorsocks.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/orbitbot/colorsocks.js",
   "authors": [
     "Patrik Johnson <patrik@zebros.fi>"
   ],
   "description": "A tiny Javascript helper for alternating color strings in HTML",
-  "main": "colorsocks.js",
+  "keywords": [
+    "coloring",
+    "color",
+    "happy",
+    "gimmick",
+    "alternating"
+  ],
   "license": "MIT",
+  "main": [
+    "dist/colorsocks.js",
+    "dist/colorsocks.min.js",
+    "bower.json",
+    "LICENSE.md"
+  ],
   "ignore": [
-    ".gitignore",
+    "*.*",
     "example",
     "node_modules",
     "src",
-    "gulpfile.js",
-    "package.json",
-    "README.md"
   ]
 }
