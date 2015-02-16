@@ -24,6 +24,6 @@
     "*.*",
     "example",
     "node_modules",
-    "src",
+    "src"
   ]
 }
