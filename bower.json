@@ -17,7 +17,6 @@
   "main": [
     "dist/colorsocks.js",
     "dist/colorsocks.min.js",
-    "bower.json",
     "LICENSE.md"
   ],
   "ignore": [
